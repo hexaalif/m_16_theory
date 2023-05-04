@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-
-int is_palindrome(char *s)
+char s[100];
+void is_palindrome()
 {
     int n = strlen(s);
     int i = 0, common = 0;
@@ -26,7 +26,7 @@ int is_palindrome(char *s)
 
 int main()
 {
-    char s[100];
+
     scanf("%s", s);
     is_palindrome(s);
     // printf("%s", s);
