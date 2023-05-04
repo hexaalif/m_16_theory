@@ -2,6 +2,19 @@
 
 int main()
 {
-
+    int n;
+    scanf("%d", &n);
+    int arr[n], sum = 0;
+    int i = 0;
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+        // printf("%d ", arr[i]);
+    }
+    while (arr[i] == 0)
+    {
+        sum = sum + arr[i];
+    }
+    printf("%d", sum);
     return 0;
 }
