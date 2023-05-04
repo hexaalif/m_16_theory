@@ -12,8 +12,6 @@ void is_palindrome(char s[])
             common++;
         }
     }
-    // printf("%d\n", i);
-    // printf("%d\n", common);
     if (common == i)
     {
         printf("Palindrome");
@@ -29,7 +27,5 @@ int main()
     char s[100];
     scanf("%s", s);
     is_palindrome(s);
-    // printf("%s", s);
-    // printf("hisijs");
     return 0;
 }
