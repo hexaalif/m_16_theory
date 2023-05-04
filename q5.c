@@ -14,8 +14,8 @@ int main()
             common++;
         }
     }
-    printf("%d\n", i);
-    printf("%d\n", common);
+    // printf("%d\n", i);
+    // printf("%d\n", common);
     if (common == i)
     {
         printf("Palindrome");
