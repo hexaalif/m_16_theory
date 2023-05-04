@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+int count_before_zero(int arr, int sz)
+{
+}
+
 int main()
 {
     int n;
@@ -17,12 +21,7 @@ int main()
         {
             break;
         }
-        // printf("%d ", arr[i]);
     }
-    // while (arr[i] == 0)
-    // {
-    //     sum = sum + arr[i];
-    // }
     printf("%d", count);
     return 0;
 }
