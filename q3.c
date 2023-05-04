@@ -4,18 +4,18 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    int arr[n], sum = 0;
+    int arr[n], count = 0;
     int i = 0;
     for (i = 0; i < n; i++)
     {
         scanf("%d", &arr[i]);
         if (arr[i] != 0)
         {
-            sum = sum + arr[i];
+            count++;
         }
         else
         {
-            break;
+            continue;
         }
         // printf("%d ", arr[i]);
     }
@@ -23,6 +23,6 @@ int main()
     // {
     //     sum = sum + arr[i];
     // }
-    printf("%d", sum);
+    printf("%d", count);
     return 0;
 }
