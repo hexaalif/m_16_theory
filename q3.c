@@ -15,7 +15,7 @@ int main()
         }
         else
         {
-            continue;
+            break;
         }
         // printf("%d ", arr[i]);
     }
