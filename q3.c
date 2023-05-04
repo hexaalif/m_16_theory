@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int count_before_zero(int *arr, int sz)
+int count_before_zero(int arr[], int sz)
 {
     int count = 0;
     for (int i = 0; i < sz; i++)
